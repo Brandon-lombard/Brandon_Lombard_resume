@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+
+    <!-- Rubik font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <!-- Robobto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="master.css">
+
+    <title>Brandon Lombard</title>
+</head>
+
+<body>
+
+    <!-- Side bar nav -->
+    <div id="flexContainer">
+
+        <!-- Logo -->
+
+        <div id="navLogo" class="navCol">
+
+            <a href="#header"><img src="images/Logo.gif" alt="Logo"></a>
+
+        </div>
+
+        <!-- Nav Bar -->
+
+        <nav class="navCol" style="align-items: center;">
+            <ul id="navUl">
+
+                <li><a href="#aboutSection">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#workHistory">Work History</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="navCol">
+
+            <!-- LInks to social pages -->
+
+            <ul id="socialLinks">
+
+                <li><a href="https://www.facebook.com/brandon.lombard.12"><img class="socialImg img-fluid"
+                            src="images/facebook.png" alt="FaceBook"></a></li>
+
+                <li><a href="https://github.com/Brandon-lombard"><img class="socialImg img-fluid"
+                                src="images/github.png" alt="FaceBook"></a></li>
+
+                <li><a href="https://www.linkedin.com/in/brandon-lombard-9baa6a1b4"><img class="socialImg img-fluid"
+                                    src="images/link.png" alt="linkedin"></a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- Spacer margin -->
+
+    <div id="outsideCon">
+
+        <!-- "burger Button" -->
+
+        <button type="button" id="navBtn"><img src="images/svgs/yen.png" alt=""></button>
+
+        <!-- Header -->
+
+        <header id="header" style="overflow: hidden;" class="container-fluid">
+
+            <div id="headerTextCon" style="opacity: 0;">
+
+                <h1>
+                    Hello, <br>
+                    My Name is <br> <span>B</span>randon <span>L</span>ombard
+                </h1>
+
+                <h2>
+                    I am a Full Stack Developer.
+                </h2>
+
+                <a href="#contact"><button type="button" id="headerContact">Contact Me</button></a>
+
+            </div>
+
+            <!-- Background (image Animation ) to be-->
+
+            <div id="backgroundCon" style="opacity: 0;">
+                <!-- 1 -->
+
+                <div class="headerVector shape1"><img src="images/svgs/shape.png" alt="shape"></div>
+
+                <!-- 2 -->
+
+                <div class="headerVector squigle1"><img style="width: 200px;" src="images/svgs/squigle.png"
+                        alt="squigle">
+                </div>
+
+                <!-- 3 -->
+
+                <div class="headerVector circle"><img src="images/svgs/circle.png" alt="circle"></div>
+
+                <!-- 4 -->
+
+                <div class="headerVector left"><img src="images/svgs/left.png" alt="left 90deg"></div>
+
+                <!-- 5 -->
+
+                <div class="headerVector rain"><img src="images/svgs/rain.png" alt="rain"></div>
+
+                <!-- 6 -->
+
+                <div class="headerVector rainbow"><img src="images/svgs/rainbow.png" alt="rainbow"></div>
+
+                <!-- 7 -->
+
+                <div class="headerVector retangle"><img style="width: 250px;" src="images/svgs/retangle.png"
+                        alt="retangle">
+                </div>
+
+                <!-- 8 -->
+
+                <div class="headerVector shape"><img src="images/svgs/shape.png" alt="Shape 1"></div>
+
+                <!-- 9 -->
+
+                <div class="headerVector splashwall"><img src="images/svgs/splashwall.png" alt="PaintSplash"></div>
+
+                <!-- 10 -->
+
+                <div class="headerVector square"><img src="images/svgs/sqaure.png" alt="Square"></div>
+
+                <!-- 11 -->
+
+                <div class="headerVector squigle"><img style="width: 200px;" src="images/svgs/squigle.png" alt=""></div>
+
+                <!-- 12 -->
+
+                <div class="headerVector dart"><img src="images/svgs/dart.png" alt=""></div>
+
+                <!-- 13 -->
+
+                <div class="headerVector yen"><img src="images/svgs/yen.png" alt=""></div>
+
+                <!-- 14 -->
+
+                <div class="headerVector rainbow1"><img src="images/svgs/rainbow.png" alt=""></div>
+
+                <!-- 15 -->
+
+                <div class="headerVector circle1"><img src="images/svgs/circle.png" alt=""></div>
+
+            </div>
+
+        </header>
+
+        <!-- About me section -->
+
+        <section id="aboutSection">
+
+            <!-- Heading -->
+
+
+            <div id="aboutCon">
+
+                <!-- Heading -->
+
+                <div class="h5text container-fluid">
+
+                    <h2 id="aboutMeh2">About me</h2>
+
+                    <div class="row" style="display: flex; align-items: center;">
+
+                        <div class="col-lg-6">
+                            <span><img src="images/PicutreOfMe.jpeg" class="img-fluid" id="picOfBrandon"
+                                    alt="picOfBrandon"></span>
+
+                        </div>
+
+                        <!-- Information -->
+
+                        <div class="col-lg-6">
+                            <h5 id="infoCol1" class="aboutText">
+                                I am hard working and very enthusiastic individual, I enjoy learning new things and
+                                aswell as improve
+                                improve and update old versions as time goes by
+                                .
+                                I am new to the industry and very keen on moving in this career direction, I have been
+
+                                studying consistently to
+
+                                progress an improve in my skill as a developer.
+
+
+                                <br><br>
+                            </h5>
+
+                            <br><br>
+
+                            <h5 id="infoCol2" class="aboutText">
+                                My passion is web and application development. My interest in this topic comes from
+                                the skill to
+                                recognize patterns and
+                                logical operations that you require and use it in the instance you need it to create
+                                a user
+                                friendly
+                                and to the point
+                                information to a user or just for fun.
+
+                                <br><br>
+                            </h5>
+
+                            <h5 id="infoCol3" class="aboutText">
+                                My motivation comes the peek interest in the creation of something unique example
+                                websites,
+                                My field of current employment is an engineering field where i design and create
+                                Items and
+                                object out of
+                                all metals while
+                                solving problems in a logical manner to get the task at hand complete.
+
+
+                                <!--  It also comes from the support of my family and loved ones who have pushed me to get as far as i have and 
+            so much more to learn -->
+                            </h5>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- End of about me -->
+
+        <!-- Skills and Portfolio -->
+
+        <!-- Skills -->
+
+        <section id="skills" class="container-fluid">
+
+            <h2 id="skillHeading">My Skills</h2>
+
+            <div class="row skillCon">
+
+                <!-- Skill 1 -->
+
+                <div class="col skill">
+
+                    <img class="floating" src="images/skillimg/html.jpg" alt="HTML">
+
+                    <h4>HTML5</h4>
+                </div>
+
+                <!-- Skill 2 -->
+
+                <div class="col skill">
+
+                    <img class="floating" src="images/skillimg/css.jpg" alt="CSS3">
+
+                    <h4>CSS</h4>
+                </div>
+
+                <!-- Skill 3 -->
+
+                <div class="col skill">
+
+                    <img class="floating" src="images/skillimg/javascript.jpg" alt="Javascript">
+
+                    <h4>JavaScript</h4>
+                </div>
+
+                <!-- Skill 4 -->
+
+                <div class="col skill">
+
+                    <img class="floating" src="images/skillimg/jquery.jpg" alt="Jquery">
+
+                    <h4>Jquery</h4>
+                </div>
+
+
+                <!-- Skill 5 -->
+
+                <div class="col skill">
+
+                    <img class="floating" src="images/skillimg/photoShop.jpg" alt="Photo SHop">
+
+                    <h4>Photoshop</h4>
+                </div>
+
+                <!-- Skill 6 -->
+
+                <div class="col skill">
+
+                    <img class="floating" src="images/skillimg/bootstrap.jpg" alt="Bootstrap">
+
+                    <h4>Bootstrap</h4>
+                </div>
+
+                <!-- Skill 7 -->
+
+                <div class="col skill">
+
+                    <img class="floating" class="floating" src="images/skillimg/gitHub.jpg" alt="GitHub">
+
+                    <h4>GitHub</h4>
+                </div>
+
+                <!-- Skill 8 -->
+
+                <div class="col skill comingSoon">
+
+                    <img class="floating" src="images/skillimg/mongo.jpg" alt="">
+
+                    <h4>Mongo DB</h4>
+                </div>
+
+                <!-- Skill 9 -->
+
+                <div class="col skill comingSoon">
+
+                    <img class="floating" src="images/skillimg/node.jpg" alt="">
+
+                    <h4>Express Js</h4>
+                </div>
+
+                <!-- Skill 10 -->
+
+                <div class="col skill comingSoon">
+
+                    <img class="floating" src="images/skillimg/react.jpg" alt="">
+
+                    <h4>React Js</h4>
+                </div>
+
+                <!-- Skill 11 -->
+
+                <div class="col skill comingSoon">
+
+                    <img class="floating" src="images/skillimg/node1.jpg" alt="">
+
+                    <h4>Node Js</h4>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Work section -->
+
+        <section id="workHistory" style="padding: 20px; min-width: 570px">
+
+            <div class="row">
+                <h2 id="workHeading">Work History</h2>
+            </div>
+
+            <div class="row positionWidthChange">
+                <img src="images/skillimg/line.png" class="imgLine line1" style="width: 175px; margin: auto;" alt="">
+
+                <div class="list">
+
+                    <!-- Employment -->
+
+                    <img src="images/svgs/dart.png" alt="" class="dartImg dartImg1">
+                    <ul class="infoUl infoUl1">
+                        <li class="placeOfWork">Top Crop</li>
+                        <li class="ownerName"><span>Owner:</span> Joe</li>
+                        <li class="period"><span>Period.</span> <br> 2015 - 2016</li>
+                        <li class="contactDetail"><span>Reference <br></span>No Reference Available</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="row positionWidthChange" >
+                <img src="images/skillimg/line.png" class="imgLine line2" style="width: 175px; margin: auto;" alt="">
+
+                <div class="list">
+
+                    <img src="images/svgs/dart.png" alt="" class="dartImg dartImg2">
+                    <ul class="infoUl infoUl2">
+                        <li class="placeOfWork">Bil-pak</li>
+                        <li class="ownerName"><span>Owner:</span> Billy Lombard</li>
+                        <li class="period"><span>Period.</span> <br> 2016 - Current</li>
+                        <li class="contactDetail"><span>Reference <br></span>No Reference Available</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="row positionWidthChange">
+                <img src="images/skillimg/line.png" class="imgLine line3" style="width: 175px; margin: auto;" alt="">
+
+                <div class="list">
+
+                    <img src="images/svgs/dart.png" alt="" class="dartImg dartImg3">
+                    <ul class="infoUl infoUl3">
+                        <li class="placeOfWork">Studied with Udemy</li>
+                        <li class="ownerName"><span>Full Stack Web Development</span></li>
+                        <li class="period"><span>Period.</span> <br> 2020 - 2021</li>
+                        <!-- <li class="contactDetail"><span>Reference <br></span> -->
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="row positionWidthChange">
+                <img src="images/skillimg/line.png" class="imgLine line4" style="width: 175px; margin: auto;" alt="">
+
+                <div class="list">
+
+                    <img src="images/svgs/dart.png" alt="" class="dartImg dartImg4">
+                    <ul class="infoUl infoUl4">
+                        <li class="placeOfWork">Studied with Hyperion Dev</li>
+                        <li class="ownerName"><span>Full Stack Web Development</span></li>
+                        <li class="period"><span>Period.</span> <br> 2021 - Current</li>
+                        <!-- <li class="contactDetail"><span>Reference <br></span></li> -->
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="row positionWidthChange"><img src="images/skillimg/line.png"
+                    style="width: 175px; margin: auto; position: relative; bottom: 30px; left: 15px;" alt="">
+            </div>
+
+        </section>
+
+        <!-- End of work history -->
+
+        <!-- Portfolio -->
+
+        <section id="projects" class="container-fluid" style="background-color: black;justify-content: center;">
+
+            <div class="row">
+                <h2 id="projectsHeader">Projects</h2>
+            </div>
+
+            <div class="row portfolioCol" style="padding: 30px;">
+
+                <div class="row projectContainer">
+
+                    <!-- Simon game -->
+
+                    <div class="col-lg">
+                        <h5 class="projectNames">Dice game</h5>
+                        <a class="portAnchor" href=""><img class="portImg img-fluid" src="images/portfolioimg/dice.png"
+                                alt="Dice game"></a>
+                    </div>
+
+                    <!-- Drum Game -->
+
+                    <div class="col-lg">
+                        <a class="portAnchor" href=""><img class="portImg img-fluid" src="images/portfolioimg//drum.png"
+                                alt="Drums"></a>
+                    </div>
+
+                    <!-- Dice Game -->
+
+                    <div class="col-lg">
+                        <a class="portAnchor" href=""><img class="portImg img-fluid" src="images/portfolioimg/simon.png"
+                                alt="Dice game"></a>
+                    </div>
+
+                    <!-- E-commerce -->
+                    <div class="col-lg">
+                        <a class="portAnchor" href="https://brandon-lombard.github.io/E-commerce/" ><img class="portImg img-fluid" src="images/portfolioimg/ecoScreen.png" alt="First ecommerce"></a>
+                    </div>
+
+                </div>
+
+                <div class="row projectContainer">
+                  
+                  
+                  
+                  
+                    <!--  
+                        Future projects
+
+                     -->
+                    <!-- <div class="col-lg">
+                        <a class="portAnchor" href=""><img class="portImg img-fluid" src="images/portfolioimg/simon.png" alt="Dice game"></a>
+                    </div>
+
+                    <div class="col-lg">
+                        <a class="portAnchor" href=""><img class="portImg img-fluid" src="images/portfolioimg/simon.png" alt="Dice game"></a>
+                    </div>
+
+                    <div class="col-lg">
+                        <a class="portAnchor" href=""><img class="portImg img-fluid" src="images/portfolioimg/simon.png" alt="Dice game"></a>
+                    </div>
+                </div> -->
+
+                <div class="row"></div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Contact Us page -->
+
+        <section id="contact">
+
+            <div class="row colRow">
+
+                <div class="col" id="contactCol">
+                    <h3>Get In <span style="color: rgb(194, 30, 30);">Touch</span></h3>
+
+                    <h5>Have a question or want to work together?</h5>
+
+                </div>
+
+                <div class="contactCol">
+                    <ul>
+                        <li><img src="images/mail.png" alt="Email Add">
+                            lombard_brandon@yahoo.com</li>
+                        <li><img src="images/cell.png" alt="Cell Number">
+                            076 733 5615</li>
+
+                        <li>Or Message me via my Social Pages</li>
+                    </ul>
+
+                    <div class="row">
+
+                        <ul id="socialLinksNav" style="border-bottom: 4px solid rgb(0, 0, 0);">
+
+                            <li><a href="https://www.facebook.com/brandon.lombard.12">
+                                <img class="getInTouchSM img-fluid" src="images/facebook.png" alt="FaceBook"></a>
+                            </li>
+
+                            <li><a href="https://github.com/Brandon-lombard">
+                                <img class="getInTouchSM img-fluid"src="images/github.png" alt="GitHub"></a></li>
+
+                            <li><a href="https://www.linkedin.com/in/brandon-lombard-9baa6a1b4">
+                                <img class="getInTouchSM img-fluid"src="images/link.png" alt="linkedin"></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 id="footer">Developed on the Oct 2021 by &copyBrandon Lombard</h2>
+
+            </div>
+
+
+        </section>
+
+    </div>
+
+    <!-- Jquery -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Custom JS -->
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

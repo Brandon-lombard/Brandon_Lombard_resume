@@ -1,0 +1,905 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Layout */
+
+#flexContainer {
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    min-height: 720px;
+}
+
+#navBtn {
+    position: fixed;
+    top: 25px;
+    left: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(194, 30, 30);
+    display: none;
+    z-index: 2;
+
+}
+
+#navBtn img {
+
+    width: 40px;
+}
+
+#header {
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Navbar */
+
+.navCol {
+
+    display: flex;
+    min-height: 33vh;
+    justify-content: center;
+
+}
+
+/* Nav Logo */
+#navLogo img {
+
+    width: 175px;
+    object-fit: contain;
+    margin: 50px;
+
+}
+
+/* Nav ul */
+
+#navUl {
+
+    list-style: none;
+    width: 100%;
+    padding: 0;
+
+}
+
+#navUl li {
+
+    align-items: center;
+    padding: 10px;
+    border: rgb(43, 43, 43);
+    border-top: 1px solid rgba(255, 255, 255, 0.282);
+    text-align: center;
+
+}
+
+#navUl a {
+
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+
+}
+
+#navUl a:hover {
+
+    color: rgb(194, 30, 30);
+    text-shadow: 0px 0px rgb(194, 30, 30), 10px 10px 30px rgb(255, 0, 0);
+}
+
+/* Social links */
+
+#socialLinks {
+
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+#socialLinks li {
+
+    list-style: none;
+    display: inline;
+    height: 40px;
+    padding: 5px;
+
+}
+
+.socialImg {
+
+    width: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.419);
+    border-radius: 100%;
+    padding: 3px;
+    margin: 3px;
+
+}
+
+.socialImg:hover {
+
+    transform: scale(1.5);
+}
+
+/* End of nav */
+
+/* Header */
+
+#outsideCon {
+
+    margin-left: 175px;
+    overflow: hidden;
+}
+
+#headerTextCon {
+
+    margin: 50px;
+
+}
+
+#headerTextCon h1 {
+
+    font-size: 5rem;
+    font-weight: 500;
+
+}
+
+#headerTextCon span {
+
+    font-size: 5.5rem;
+    color: rgb(194, 30, 30);
+}
+
+#headerTextCon h2 {
+
+    font-size: 2.5rem;
+    color: rgb(194, 30, 30);
+}
+
+/* Header Contact button */
+
+#headerContact {
+
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 8px rgb(0, 0, 0);
+
+
+}
+
+#headerContact:hover {
+
+    border-color: rgb(194, 30, 30);
+    color: rgb(194, 30, 30);
+    cursor: pointer;
+}
+
+/* Background images */
+
+.headerVector {
+
+    z-index: -1;
+    position: relative;
+}
+
+.headerVector img {
+
+    width: 150px;
+    padding: 0;
+}
+
+/* Background images */
+
+.square {
+
+    bottom: 18rem;
+
+}
+
+.squigle1 {
+
+    top: 22rem;
+    left: 17rem;
+    transform: rotate(-45deg);
+
+
+}
+
+.circle {
+
+    top: 32rem;
+    right: 30rem;
+    transform: rotate(25deg);
+}
+
+.left {
+
+    top: 52rem;
+    right: 34rem;
+}
+
+
+.rain {
+
+    top: 46rem;
+    left: 10rem;
+
+}
+
+.rainbow {
+
+    top: 25rem;
+    right: 14rem;
+    transform: rotate(250deg);
+}
+
+.retangle {
+
+    left: 15rem;
+    top: 15rem;
+    transform: rotate(22deg);
+}
+
+.shape {
+
+    right: 45rem;
+    bottom: 24rem;
+
+}
+
+.shape1 {
+
+    top: 25rem;
+    left: 45rem;
+    transform: rotate(150deg);
+}
+
+.splashwall {
+
+    top: 23rem;
+    left: 47rem;
+    transform: rotate(45deg);
+
+}
+
+.squigle {
+
+    top: 12rem;
+    right: 15rem;
+    transform: rotate(-30deg);
+
+}
+
+.dart {
+
+    bottom: 12rem;
+    left: 42rem;
+    transform: rotate(45deg);
+}
+
+.yen {
+
+    bottom: 40rem;
+    left: 37rem;
+    transform: rotate(45deg);
+}
+
+.rainbow1 {
+
+    bottom: 63rem;
+    right: 15rem;
+    transform: rotate(32deg);
+}
+
+.circle1 {
+
+    bottom: 17rem;
+    left: 25rem;
+    transform: rotate(125deg);
+}
+
+/* end of header */
+
+/* About section */
+
+#aboutSection {
+
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    padding: 4% 13%;
+
+
+}
+
+
+#aboutSection h2 {
+
+    font-size: 4rem;
+    color: rgb(194, 30, 30);
+    text-align: center;
+    margin: 0;
+
+}
+
+#aboutCon {
+
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.h5text {
+
+
+    padding: 65px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.h5text img {
+
+    width: 70%;
+    object-fit: contain;
+    border-radius: 10%;
+    padding: 20px;
+
+}
+
+#aboutCon h5 {
+
+    font-size: 1.3rem;
+    line-height: 1.3;
+
+}
+
+/* Skills section */
+
+/* Skill heading */
+
+#skillHeading,
+#workHeading,
+#projectsHeader {
+
+    font-size: 3rem;
+    color: rgb(194, 30, 30);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.skillCon {
+
+    margin: auto;
+    text-align: center;
+    max-width: 1300px;
+
+}
+
+.skill {
+
+    padding: 10px;
+    width: 250px;
+}
+
+
+
+.skill h4 {
+
+    font-size: 1.5rem;
+    padding: 10px;
+    color: rgb(194, 30, 30);
+}
+
+
+/* End of skills */
+/* Work History */
+
+
+#workHistory {
+
+    background: url(images/workback.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: 0.5rem -0.5rem 1.5rem rgb(0, 0, 0);
+}
+
+.list {
+    text-align: center;
+
+}
+
+.line1 {
+
+    transform: rotate(-25deg);
+
+}
+
+.line2 {
+
+    position: relative;
+    transform: rotate(15deg);
+    left: 13px;
+
+}
+
+
+.line3 {
+
+    position: relative;
+    transform: rotate(-35deg);
+    left: 43px;
+    bottom: 11px;
+}
+
+
+.line4 {
+
+    position: relative;
+    transform: rotate(25deg);
+    left: 60px;
+    bottom: 30px;
+
+}
+
+
+.dartImg {
+
+    width: 50px;
+    height: 60px;
+    padding: 3px;
+    position: relative;
+
+
+}
+
+.dartImg1 {
+
+    left: 40px;
+    bottom: 1px;
+}
+
+.dartImg2 {
+
+    top: 1px;
+    right: 12px;
+}
+
+.dartImg3 {
+
+    left: 100px;
+    bottom: 25px;
+
+}
+
+.dartImg4 {
+
+    left: 17px;
+    bottom: 35px;
+
+}
+
+
+
+.infoUl {
+
+    margin: auto;
+    width: 200px;
+    height: 0;
+}
+
+
+.infoUl1 li {
+    text-align: left;
+    position: relative;
+    bottom: 120px;
+    left: 150px;
+    list-style: none;
+
+}
+
+.infoUl2 li {
+    text-align: right;
+    position: relative;
+    bottom: 125px;
+    right: 150px;
+    list-style: none;
+
+}
+
+.infoUl3 li {
+    text-align: left;
+    position: relative;
+    bottom: 150px;
+    left: 205px;
+    list-style: none;
+
+}
+
+.infoUl4 li {
+    text-align: right;
+    position: relative;
+    bottom: 165px;
+    right: 120px;
+    list-style: none;
+
+}
+
+.placeOfWork {
+
+    font-size: 1.2rem;
+    padding: 5px;
+    color: rgb(194, 30, 30);
+}
+
+.ownerName span {
+
+
+    font-size: 1rem;
+    padding: 5px;
+    color: rgb(194, 30, 30);
+}
+
+.period span {
+
+
+    font-size: 1rem;
+    padding: 5px;
+    color: rgb(194, 30, 30);
+}
+
+.contactDetail span {
+
+
+    font-size: 1rem;
+    padding: 5px;
+    color: rgb(194, 30, 30);
+}
+
+/* Portfolio */
+
+.portfolioCol {
+
+    text-align: center;
+    margin: 0;
+}
+
+.projectContainer {
+
+    margin-left: 0;
+}
+
+.portImg {
+
+    width: 500px;
+    margin: 10px auto;
+    opacity: 0.5;
+}
+
+.projectNames {
+
+    position: relative;
+
+    top: 200px;
+    display: none;
+}
+
+
+/* Contact me */
+
+#contact {
+
+    background-image: url("images/worldMap.png");
+    background-color: white;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.colRow {
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80%;
+
+}
+
+#contactCol h3 {
+
+    text-align: left;
+    font-size: 5rem;
+    padding: 20px;
+}
+
+#contactCol h5 {
+
+    text-align: left;
+    padding: 20px;
+
+}
+
+.contactCol {
+
+    text-align: left;
+    margin-top: 70px;
+    font-size: 1.3rem;
+}
+
+.contactCol img {
+
+    width: 80px;
+    padding: 20px;
+
+}
+
+.contactCol li {
+
+    list-style: none;
+    margin: 20px;
+}
+
+.getInTouchSM {
+
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#socialLinksNav li {
+
+    display: inline-block;
+}
+
+/* footer */
+
+#footer {
+
+
+    margin-top: 50px;
+    font-size: 1rem;
+    ;
+}
+
+.comingSoon {
+
+    opacity: 0.2;
+
+
+}
+
+
+/* 
+
+Media Queries
+
+*/
+
+@media only screen and (max-width: 1146px) {
+
+    .circle {
+
+        position: relative;
+        top: 600px;
+        right: 700px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #flexContainer {
+        display: none;
+        right: 0;
+        z-index: 3;
+    }
+
+    #outsideCon {
+
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .getInTouchSM {
+
+        width: 50px;
+        text-align: center;
+    }
+
+    #navBtn {
+
+        display: flex;
+
+    }
+
+    #navBtn img {
+
+        width: 60px;
+
+    }
+
+    #header h1 {
+
+        font-size: 3rem
+    }
+
+    #header h2 {
+
+        font-size: 1.7rem
+    }
+
+    #backgroundCon {
+
+        width: 0px;
+    }
+
+    #headerTextCon {
+
+        margin: auto;
+    }
+
+    #skillHeading,
+    #workHeading,
+    #projectsHeader {
+
+    font-size: 2rem;
+
+}
+
+#aboutSection h2 {
+
+    font-size: 2.5rem;
+}
+
+
+    /* Portfolio page */
+
+
+    .portImg {
+        margin: 0;
+        padding: 10px;
+
+    }
+
+    /* contact us page */
+    .infoUl li {
+
+        font-size: 1rem;
+
+    }
+
+    #contactCol h3, #contactCol h5, .contactCol {
+
+        text-align: center;
+    }
+
+    #contactCol h3 {
+
+        font-size: 3rem;
+        
+    }
+
+    .contactCol li {
+
+        margin: 0;
+        font-size: 1rem;
+    }
+
+
+    .getInTouchSM {
+        padding: 10px;
+        width: 50px;
+        background-color: rgb(194, 30, 30)
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    #contactCol h3 {
+
+        font-size: 3rem
+    }
+
+    #contactCol h5 {
+
+        font-size: 1rem;
+
+    }
+
+    #contactCol li {
+
+        font-size: 1rem;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .positionWidthChange {
+
+        position: relative;
+        right: 50px;
+
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    #flexContainer {
+
+        display: flex;
+
+    }
+}
+
+/* Float animation */
+
+@keyframes float {
+    0% {
+
+        transform: translatey(0px);
+    }
+
+    50% {
+
+        transform: translatey(-15px);
+
+    }
+
+    100% {
+
+        transform: translatey(0px);
+
+    }
+}
+
+
+
+.floating:hover {
+
+    transform: translatey(0px);
+    animation: float 1.5s ease-in-out infinite;
+
+}
+
+
+.portImg:hover {
+
+    opacity: 1;
+}
+
+#socialLinksNav li:hover {
+
+    transform: translatey(0px);
+    animation: float 1.5s ease-in-out infinite;
+
+}
